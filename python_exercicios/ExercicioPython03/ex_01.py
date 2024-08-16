@@ -1,10 +1,13 @@
-# Lista usando laço for
-print (" ")
-print ("Lista de Times")
-print (" ")
+# Times grandes de São Paulo
+times_sp = ["Corinthians", "Palmeiras", "Santos", "São Paulo"]
 
-times = ["Corinthians", "São Paulo", "Fluminense", "Vasco da Gama"]
+# Times grandes do Rio de Janeiro
+times_rj = ["Flamengo", "Fluminense", "Vasco", "Botafogo"]
 
-#listar usando laço
-for time in times:
+print("Times de São Paulo:")
+for time in times_sp:
+    print(time)
+
+print("\nTimes do Rio de Janeiro:")
+for time in times_rj:
     print(time)
